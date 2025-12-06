@@ -7,10 +7,41 @@ body {
   font-size: 16px;
   color: antiquewhite;
   text-align: center;
+  align-items: center;
   margin:0;
   text-decoration: none;
 }
 #header {
   height: 200px;
   background: #120026;
+}
+
+details {
+  margin: auto;
+  background: #000000;
+  line-height: 60px; 
+  width:300px
+}
+
+details summary {
+  margin: auto;
+  border: 2px outset whitesmoke;
+  line-height: 60px; 
+  width:300px
+}
+
+details[open] summary {
+  margin: auto;
+  border: 2px inset whitesmoke;
+  line-height: 60px; 
+  width:300px
+}
+
+details[open] {
+  margin: auto;
+  line-height: 60px; 
+  vertical-align: middle;
+  text-align: center;
+  background-color: #000000;
+  width:90%
 }
