@@ -45,3 +45,8 @@ details[open] {
   background-color: #000000;
   width:90%
 }
+
+embed {
+  padding-top:0%;
+  height: fit-content;
+}
