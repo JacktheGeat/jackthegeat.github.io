@@ -1,5 +1,6 @@
 
 import React from 'react';
+import { EmbedPDF } from '@simplepdf/react-embed-pdf';
 import './App.css';
 import Navbar from './navbar';
 
@@ -28,7 +29,12 @@ function App() {
             <summary>Project Posters</summary>
             <div>
                 <div style={{padding: 1+"%"}}></div>
-                
+                <div class="embed-box">
+                    <embed class="embed-content" src="src/assets/Poster___Jack_and_Noah.pdf#pagemode=none" type="application/pdf" width="100%" height="100%" frameBorder="0"/>
+                </div>
+                <div class="embed-box">
+                    <embed class="embed-content" src="src/assets/summer_research_poster.pdf#pagemode=none" type="application/pdf" width="100%" height="100%" frameBorder="0"/>
+                </div>
             </div>
         </details>
       </div>
