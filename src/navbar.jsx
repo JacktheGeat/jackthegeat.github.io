@@ -13,7 +13,7 @@ export default function Navbar() {
                     <a href="Backrooms">Backrooms Datapack</a>
                     <a href="Mystanic">Mystanic Datapack</a>
                     <a href="nachos.demo">Nachos Operating System</a>
-                    <a href="react-site">React experimenting</a>
+                    <a href="phantasmogoria-generator">Project: Phantasmogoria json generator</a>
                 </div>
             </div>
         </div>

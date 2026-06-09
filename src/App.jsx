@@ -30,10 +30,10 @@ function App() {
             <div>
                 <div style={{padding: 1+"%"}}></div>
                 <div class="embed-box">
-                    <embed class="embed-content" src="src/assets/Poster___Jack_and_Noah.pdf#pagemode=none" type="application/pdf" width="100%" height="100%" frameBorder="0"/>
+                    <embed class="embed-content" src="assets/Poster___Jack_and_Noah.pdf#pagemode=none" type="application/pdf" width="100%" height="100%" frameBorder="0"/>
                 </div>
                 <div class="embed-box">
-                    <embed class="embed-content" src="src/assets/summer_research_poster.pdf#pagemode=none" type="application/pdf" width="100%" height="100%" frameBorder="0"/>
+                    <embed class="embed-content" src="assets/summer_research_poster.pdf#pagemode=none" type="application/pdf" width="100%" height="100%" frameBorder="0"/>
                 </div>
             </div>
         </details>
